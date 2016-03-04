@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B6F0B61C89291A006A4A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0B51C89291A006A4A73 /* AppDelegate.swift */; };
+		62B6F0B81C89291A006A4A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0B71C89291A006A4A73 /* ViewController.swift */; };
+		62B6F0BB1C89291A006A4A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B6F0B91C89291A006A4A73 /* Main.storyboard */; };
+		62B6F0BD1C89291A006A4A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B6F0BC1C89291A006A4A73 /* Assets.xcassets */; };
+		62B6F0C01C89291A006A4A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B6F0BE1C89291A006A4A73 /* LaunchScreen.storyboard */; };
+		62B6F0CB1C89291A006A4A73 /* AnimalFortuneTellingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0CA1C89291A006A4A73 /* AnimalFortuneTellingTests.swift */; };
+		62B6F0D61C89291A006A4A73 /* AnimalFortuneTellingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0D51C89291A006A4A73 /* AnimalFortuneTellingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B6F0C71C89291A006A4A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B6F0AA1C89291A006A4A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B6F0B11C89291A006A4A73;
+			remoteInfo = AnimalFortuneTelling;
+		};
+		62B6F0D21C89291A006A4A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B6F0AA1C89291A006A4A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B6F0B11C89291A006A4A73;
+			remoteInfo = AnimalFortuneTelling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62B6F0B21C89291A006A4A73 /* AnimalFortuneTelling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalFortuneTelling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B6F0B51C89291A006A4A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62B6F0B71C89291A006A4A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62B6F0BA1C89291A006A4A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62B6F0BC1C89291A006A4A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B6F0BF1C89291A006A4A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62B6F0C11C89291A006A4A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B6F0C61C89291A006A4A73 /* AnimalFortuneTellingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalFortuneTellingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B6F0CA1C89291A006A4A73 /* AnimalFortuneTellingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFortuneTellingTests.swift; sourceTree = "<group>"; };
+		62B6F0CC1C89291A006A4A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B6F0D11C89291A006A4A73 /* AnimalFortuneTellingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalFortuneTellingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B6F0D51C89291A006A4A73 /* AnimalFortuneTellingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFortuneTellingUITests.swift; sourceTree = "<group>"; };
+		62B6F0D71C89291A006A4A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B6F0AF1C89291A006A4A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B6F0C31C89291A006A4A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B6F0CE1C89291A006A4A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62B6F0A91C89291A006A4A73 = {
+			isa = PBXGroup;
+			children = (
+				62B6F0B41C89291A006A4A73 /* AnimalFortuneTelling */,
+				62B6F0C91C89291A006A4A73 /* AnimalFortuneTellingTests */,
+				62B6F0D41C89291A006A4A73 /* AnimalFortuneTellingUITests */,
+				62B6F0B31C89291A006A4A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62B6F0B31C89291A006A4A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B6F0B21C89291A006A4A73 /* AnimalFortuneTelling.app */,
+				62B6F0C61C89291A006A4A73 /* AnimalFortuneTellingTests.xctest */,
+				62B6F0D11C89291A006A4A73 /* AnimalFortuneTellingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62B6F0B41C89291A006A4A73 /* AnimalFortuneTelling */ = {
+			isa = PBXGroup;
+			children = (
+				62B6F0B51C89291A006A4A73 /* AppDelegate.swift */,
+				62B6F0B71C89291A006A4A73 /* ViewController.swift */,
+				62B6F0B91C89291A006A4A73 /* Main.storyboard */,
+				62B6F0BC1C89291A006A4A73 /* Assets.xcassets */,
+				62B6F0BE1C89291A006A4A73 /* LaunchScreen.storyboard */,
+				62B6F0C11C89291A006A4A73 /* Info.plist */,
+			);
+			path = AnimalFortuneTelling;
+			sourceTree = "<group>";
+		};
+		62B6F0C91C89291A006A4A73 /* AnimalFortuneTellingTests */ = {
+			isa = PBXGroup;
+			children = (
+				62B6F0CA1C89291A006A4A73 /* AnimalFortuneTellingTests.swift */,
+				62B6F0CC1C89291A006A4A73 /* Info.plist */,
+			);
+			path = AnimalFortuneTellingTests;
+			sourceTree = "<group>";
+		};
+		62B6F0D41C89291A006A4A73 /* AnimalFortuneTellingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62B6F0D51C89291A006A4A73 /* AnimalFortuneTellingUITests.swift */,
+				62B6F0D71C89291A006A4A73 /* Info.plist */,
+			);
+			path = AnimalFortuneTellingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62B6F0B11C89291A006A4A73 /* AnimalFortuneTelling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B6F0DA1C89291A006A4A73 /* Build configuration list for PBXNativeTarget "AnimalFortuneTelling" */;
+			buildPhases = (
+				62B6F0AE1C89291A006A4A73 /* Sources */,
+				62B6F0AF1C89291A006A4A73 /* Frameworks */,
+				62B6F0B01C89291A006A4A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalFortuneTelling;
+			productName = AnimalFortuneTelling;
+			productReference = 62B6F0B21C89291A006A4A73 /* AnimalFortuneTelling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62B6F0C51C89291A006A4A73 /* AnimalFortuneTellingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B6F0DD1C89291A006A4A73 /* Build configuration list for PBXNativeTarget "AnimalFortuneTellingTests" */;
+			buildPhases = (
+				62B6F0C21C89291A006A4A73 /* Sources */,
+				62B6F0C31C89291A006A4A73 /* Frameworks */,
+				62B6F0C41C89291A006A4A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B6F0C81C89291A006A4A73 /* PBXTargetDependency */,
+			);
+			name = AnimalFortuneTellingTests;
+			productName = AnimalFortuneTellingTests;
+			productReference = 62B6F0C61C89291A006A4A73 /* AnimalFortuneTellingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62B6F0D01C89291A006A4A73 /* AnimalFortuneTellingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B6F0E01C89291A006A4A73 /* Build configuration list for PBXNativeTarget "AnimalFortuneTellingUITests" */;
+			buildPhases = (
+				62B6F0CD1C89291A006A4A73 /* Sources */,
+				62B6F0CE1C89291A006A4A73 /* Frameworks */,
+				62B6F0CF1C89291A006A4A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B6F0D31C89291A006A4A73 /* PBXTargetDependency */,
+			);
+			name = AnimalFortuneTellingUITests;
+			productName = AnimalFortuneTellingUITests;
+			productReference = 62B6F0D11C89291A006A4A73 /* AnimalFortuneTellingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B6F0AA1C89291A006A4A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jollyjoester;
+				TargetAttributes = {
+					62B6F0B11C89291A006A4A73 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					62B6F0C51C89291A006A4A73 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 62B6F0B11C89291A006A4A73;
+					};
+					62B6F0D01C89291A006A4A73 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 62B6F0B11C89291A006A4A73;
+					};
+				};
+			};
+			buildConfigurationList = 62B6F0AD1C89291A006A4A73 /* Build configuration list for PBXProject "AnimalFortuneTelling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62B6F0A91C89291A006A4A73;
+			productRefGroup = 62B6F0B31C89291A006A4A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62B6F0B11C89291A006A4A73 /* AnimalFortuneTelling */,
+				62B6F0C51C89291A006A4A73 /* AnimalFortuneTellingTests */,
+				62B6F0D01C89291A006A4A73 /* AnimalFortuneTellingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B6F0B01C89291A006A4A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B6F0C01C89291A006A4A73 /* LaunchScreen.storyboard in Resources */,
+				62B6F0BD1C89291A006A4A73 /* Assets.xcassets in Resources */,
+				62B6F0BB1C89291A006A4A73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B6F0C41C89291A006A4A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B6F0CF1C89291A006A4A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62B6F0AE1C89291A006A4A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B6F0B81C89291A006A4A73 /* ViewController.swift in Sources */,
+				62B6F0B61C89291A006A4A73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B6F0C21C89291A006A4A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B6F0CB1C89291A006A4A73 /* AnimalFortuneTellingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B6F0CD1C89291A006A4A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B6F0D61C89291A006A4A73 /* AnimalFortuneTellingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B6F0C81C89291A006A4A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B6F0B11C89291A006A4A73 /* AnimalFortuneTelling */;
+			targetProxy = 62B6F0C71C89291A006A4A73 /* PBXContainerItemProxy */;
+		};
+		62B6F0D31C89291A006A4A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B6F0B11C89291A006A4A73 /* AnimalFortuneTelling */;
+			targetProxy = 62B6F0D21C89291A006A4A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62B6F0B91C89291A006A4A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B6F0BA1C89291A006A4A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62B6F0BE1C89291A006A4A73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B6F0BF1C89291A006A4A73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62B6F0D81C89291A006A4A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62B6F0D91C89291A006A4A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62B6F0DB1C89291A006A4A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalFortuneTelling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollyjoester.AnimalFortuneTelling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62B6F0DC1C89291A006A4A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalFortuneTelling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollyjoester.AnimalFortuneTelling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62B6F0DE1C89291A006A4A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimalFortuneTellingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollyjoester.AnimalFortuneTellingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalFortuneTelling.app/AnimalFortuneTelling";
+			};
+			name = Debug;
+		};
+		62B6F0DF1C89291A006A4A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimalFortuneTellingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollyjoester.AnimalFortuneTellingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalFortuneTelling.app/AnimalFortuneTelling";
+			};
+			name = Release;
+		};
+		62B6F0E11C89291A006A4A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimalFortuneTellingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollyjoester.AnimalFortuneTellingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimalFortuneTelling;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62B6F0E21C89291A006A4A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimalFortuneTellingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollyjoester.AnimalFortuneTellingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimalFortuneTelling;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62B6F0AD1C89291A006A4A73 /* Build configuration list for PBXProject "AnimalFortuneTelling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B6F0D81C89291A006A4A73 /* Debug */,
+				62B6F0D91C89291A006A4A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B6F0DA1C89291A006A4A73 /* Build configuration list for PBXNativeTarget "AnimalFortuneTelling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B6F0DB1C89291A006A4A73 /* Debug */,
+				62B6F0DC1C89291A006A4A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62B6F0DD1C89291A006A4A73 /* Build configuration list for PBXNativeTarget "AnimalFortuneTellingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B6F0DE1C89291A006A4A73 /* Debug */,
+				62B6F0DF1C89291A006A4A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62B6F0E01C89291A006A4A73 /* Build configuration list for PBXNativeTarget "AnimalFortuneTellingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B6F0E11C89291A006A4A73 /* Debug */,
+				62B6F0E21C89291A006A4A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62B6F0AA1C89291A006A4A73 /* Project object */;
+}

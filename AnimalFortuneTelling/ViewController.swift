@@ -25,22 +25,22 @@ class ViewController: UIViewController {
 
     @IBAction func tellFortunes(sender: AnyObject) {
 
-        let random = arc4random_uniform(6)
+        let random = arc4random_uniform(100)
 
         switch random {
-        case 0:
+        case 0..<10:
             animalLabel.text = "🐶"
             resultLabel.text = "大吉だワン！"
-        case 1:
+        case 10..<30:
             animalLabel.text = "🐱"
             resultLabel.text = "中吉だニャー！"
-        case 2:
+        case 30..<50:
             animalLabel.text = "🐴"
             resultLabel.text = "吉だヒヒーン！"
-        case 3:
+        case 50..<70:
             animalLabel.text = "🐮"
             resultLabel.text = "末吉だモー！"
-        case 4:
+        case 70..<90:
             animalLabel.text = "🐘"
             resultLabel.text = "凶だゾウ！"
         default:

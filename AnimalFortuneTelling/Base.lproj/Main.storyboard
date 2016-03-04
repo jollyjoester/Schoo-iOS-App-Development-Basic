@@ -41,7 +41,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="占う"/>
                                 <connections>
-                                    <action selector="tellFortunes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AWu-zf-a6n"/>
+                                    <action selector="tellFortunes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHl-iG-Lhe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の運勢を占おう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
@@ -68,8 +68,8 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="animalLabel" destination="j0i-u3-NMK" id="IzR-kh-VRx"/>
-                        <outlet property="resultLabel" destination="l36-Zt-0VL" id="ALd-hc-mUI"/>
+                        <outlet property="animalLabel" destination="j0i-u3-NMK" id="GBs-62-30b"/>
+                        <outlet property="resultLabel" destination="l36-Zt-0VL" id="ePd-4o-HDJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

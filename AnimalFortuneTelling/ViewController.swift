@@ -37,6 +37,13 @@ class ViewController: UIViewController {
                 self.animalLabel.alpha = 1.0
                 self.resultLabel.hidden = false
                 self.changeLabel()
+
+                UIView.animateWithDuration(0.1, animations: {
+                    UIView.setAnimationRepeatCount(5)
+                    self.animalLabel.transform = CGAffineTransformMakeTranslation(10, 0)
+                    }, completion: { (Bool) -> Void in
+                        self.animalLabel.transform = CGAffineTransformIdentity
+                })
         })
     }
 

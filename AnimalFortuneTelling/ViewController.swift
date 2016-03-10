@@ -25,6 +25,22 @@ class ViewController: UIViewController {
 
     @IBAction func tellFortunes(sender: AnyObject) {
 
+        UIView.animateWithDuration(1.0, animations: {
+
+            self.animalLabel.transform = CGAffineTransformMakeScale(0.2, 0.2)
+            self.animalLabel.alpha = 0.0
+            self.resultLabel.hidden = true
+
+            }, completion: { (Bool) -> Void in
+
+                self.animalLabel.transform = CGAffineTransformIdentity
+                self.animalLabel.alpha = 1.0
+                self.resultLabel.hidden = false
+                self.changeLabel()
+        })
+    }
+
+    func changeLabel() {
         let random = arc4random_uniform(100)
 
         switch random {

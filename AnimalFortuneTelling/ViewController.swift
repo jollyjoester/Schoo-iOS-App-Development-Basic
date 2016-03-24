@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var animalLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
+
+    var player: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,27 +52,44 @@ class ViewController: UIViewController {
 
     func changeLabel() {
         let random = arc4random_uniform(100)
+        var soundName = ""
 
         switch random {
         case 0..<10:
             animalLabel.text = "🐶"
             resultLabel.text = "大吉だワン！"
+            soundName = "dog.mp3"
         case 10..<30:
             animalLabel.text = "🐱"
             resultLabel.text = "中吉だニャー！"
+            soundName = "cat.mp3"
         case 30..<50:
-            animalLabel.text = "🐴"
-            resultLabel.text = "吉だヒヒーン！"
+            animalLabel.text = "🐔"
+            resultLabel.text = "吉だコケコッコー！"
+            soundName = "chicken.mp3"
         case 50..<70:
-            animalLabel.text = "🐮"
-            resultLabel.text = "末吉だモー！"
+            animalLabel.text = "🐑"
+            resultLabel.text = "末吉だメェェ！"
+            soundName = "sheep.mp3"
         case 70..<90:
             animalLabel.text = "🐘"
             resultLabel.text = "凶だゾウ！"
+            soundName = "elephant.mp3"
         default:
             animalLabel.text = "🐯"
             resultLabel.text = "大凶だガオー！"
+            soundName = "tiger.mp3"
         }
+
+        let url = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent(soundName)
+
+        do {
+            player = try AVAudioPlayer(contentsOfURL: url)
+            player?.play()
+        } catch {
+            print("エラーです")
+        }
+
     }
 }
 

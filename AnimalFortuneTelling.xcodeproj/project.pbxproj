@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6287B8FB1CA48E0D00BB86A0 /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B8FA1CA48E0D00BB86A0 /* dog.mp3 */; };
+		6287B9001CA4919B00BB86A0 /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B8FC1CA4919B00BB86A0 /* sheep.mp3 */; };
+		6287B9011CA4919B00BB86A0 /* tiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B8FD1CA4919B00BB86A0 /* tiger.mp3 */; };
+		6287B9021CA4919B00BB86A0 /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B8FE1CA4919B00BB86A0 /* cat.mp3 */; };
+		6287B9031CA4919B00BB86A0 /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B8FF1CA4919B00BB86A0 /* elephant.mp3 */; };
+		6287B9051CA4934000BB86A0 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B9041CA4934000BB86A0 /* chicken.mp3 */; };
 		62B6F0B61C89291A006A4A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0B51C89291A006A4A73 /* AppDelegate.swift */; };
 		62B6F0B81C89291A006A4A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0B71C89291A006A4A73 /* ViewController.swift */; };
 		62B6F0BB1C89291A006A4A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B6F0B91C89291A006A4A73 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6287B8FA1CA48E0D00BB86A0 /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+		6287B8FC1CA4919B00BB86A0 /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
+		6287B8FD1CA4919B00BB86A0 /* tiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tiger.mp3; sourceTree = "<group>"; };
+		6287B8FE1CA4919B00BB86A0 /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		6287B8FF1CA4919B00BB86A0 /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
+		6287B9041CA4934000BB86A0 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
 		62B6F0B21C89291A006A4A73 /* AnimalFortuneTelling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalFortuneTelling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B6F0B51C89291A006A4A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62B6F0B71C89291A006A4A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6287B8F91CA48DF200BB86A0 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				6287B9041CA4934000BB86A0 /* chicken.mp3 */,
+				6287B8FC1CA4919B00BB86A0 /* sheep.mp3 */,
+				6287B8FD1CA4919B00BB86A0 /* tiger.mp3 */,
+				6287B8FE1CA4919B00BB86A0 /* cat.mp3 */,
+				6287B8FF1CA4919B00BB86A0 /* elephant.mp3 */,
+				6287B8FA1CA48E0D00BB86A0 /* dog.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
 		62B6F0A91C89291A006A4A73 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,7 @@
 		62B6F0B41C89291A006A4A73 /* AnimalFortuneTelling */ = {
 			isa = PBXGroup;
 			children = (
+				6287B8F91CA48DF200BB86A0 /* sound */,
 				62B6F0B51C89291A006A4A73 /* AppDelegate.swift */,
 				62B6F0B71C89291A006A4A73 /* ViewController.swift */,
 				62B6F0B91C89291A006A4A73 /* Main.storyboard */,
@@ -229,9 +255,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6287B9001CA4919B00BB86A0 /* sheep.mp3 in Resources */,
 				62B6F0C01C89291A006A4A73 /* LaunchScreen.storyboard in Resources */,
+				6287B9011CA4919B00BB86A0 /* tiger.mp3 in Resources */,
+				6287B9031CA4919B00BB86A0 /* elephant.mp3 in Resources */,
+				6287B9051CA4934000BB86A0 /* chicken.mp3 in Resources */,
 				62B6F0BD1C89291A006A4A73 /* Assets.xcassets in Resources */,
+				6287B9021CA4919B00BB86A0 /* cat.mp3 in Resources */,
 				62B6F0BB1C89291A006A4A73 /* Main.storyboard in Resources */,
+				6287B8FB1CA48E0D00BB86A0 /* dog.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

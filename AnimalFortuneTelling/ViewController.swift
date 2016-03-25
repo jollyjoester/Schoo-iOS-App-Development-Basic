@@ -19,7 +19,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
 
         let url = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("bgm.mp3")
 
@@ -27,11 +26,11 @@ class ViewController: UIViewController {
             bgmPlayer = try AVAudioPlayer(contentsOfURL: url)
             bgmPlayer.numberOfLoops = -1
             bgmPlayer.volume = 0.5
+//            bgmPlayer.enableRate = true
+//            bgmPlayer.rate = 0.5
+//            bgmPlayer.currentTime = 5
+//            bgmPlayer.pan = -1.0
             bgmPlayer.prepareToPlay()
-            //bgmPlayer.enableRate = true
-            //bgmPlayer.rate = 0.5
-            //bgmPlayer.currentTime = 10
-            //bgmPlayer.pan = -1.0
             bgmPlayer.play()
         } catch {
             print("bgmエラーです")
@@ -106,6 +105,14 @@ class ViewController: UIViewController {
         } catch {
             print("エラーです")
         }
+
+//        if bgmPlayer.playing {
+//            bgmPlayer.pause()
+//        } else {
+//            bgmPlayer.play()
+//        }
+
+//        bgmPlayer.stop()
 
     }
 }

@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どうぶつ占い" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-4s-4aX">
-                                <rect key="frame" x="50" y="30" width="220" height="78.5"/>
+                                <rect key="frame" x="50" y="30" width="220" height="79"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BAF-4s-4aX" secondAttribute="height" multiplier="280:100" id="Ofz-lm-Wzn"/>
                                     <constraint firstAttribute="width" secondItem="BAF-4s-4aX" secondAttribute="height" multiplier="4:1" id="jdL-wj-cWu"/>

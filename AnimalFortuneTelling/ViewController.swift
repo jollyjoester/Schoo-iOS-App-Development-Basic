@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             //bgmPlayer.enableRate = true
             //bgmPlayer.rate = 0.5
             //bgmPlayer.currentTime = 10
-            //bgmPlayer.pan = -1.0 // さゆう
+            //bgmPlayer.pan = -1.0
             bgmPlayer.play()
         } catch {
             print("bgmエラーです")

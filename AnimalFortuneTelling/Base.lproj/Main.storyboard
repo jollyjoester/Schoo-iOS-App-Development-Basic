@@ -67,7 +67,6 @@
                                 <state key="normal" title="占う"/>
                                 <connections>
                                     <action selector="tellFortunes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHl-iG-Lhe"/>
-                                    <segue destination="6fL-6o-SIv" kind="show" id="27m-H1-zki"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の運勢を占おう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
@@ -174,25 +173,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="269" y="336"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="WV8-pS-cTi">
-            <objects>
-                <viewController id="6fL-6o-SIv" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DDw-qe-GPe"/>
-                        <viewControllerLayoutGuide type="bottom" id="PEg-e1-9FC"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Z7i-1G-ZgQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hBN-hi-kyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="669" y="336"/>
         </scene>
     </scenes>
 </document>

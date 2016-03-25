@@ -14,11 +14,28 @@ class ViewController: UIViewController {
     @IBOutlet weak var animalLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
 
-    var player: AVAudioPlayer?
+    var player: AVAudioPlayer!
+    var bgmPlayer: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        let url = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("bgm.mp3")
+
+        do {
+            bgmPlayer = try AVAudioPlayer(contentsOfURL: url)
+            bgmPlayer.numberOfLoops = -1
+            bgmPlayer.volume = 0.5
+            bgmPlayer.prepareToPlay()
+            //bgmPlayer.enableRate = true
+            //bgmPlayer.rate = 0.5
+            //bgmPlayer.currentTime = 10
+            //bgmPlayer.pan = -1.0 // さゆう
+            bgmPlayer.play()
+        } catch {
+            print("bgmエラーです")
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -85,7 +102,7 @@ class ViewController: UIViewController {
 
         do {
             player = try AVAudioPlayer(contentsOfURL: url)
-            player?.play()
+            player.play()
         } catch {
             print("エラーです")
         }

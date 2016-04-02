@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vS4-gD-ij5">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どうぶつ占い" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-4s-4aX">
-                                <rect key="frame" x="50" y="30" width="220" height="79"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="どうぶつ占い" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-4s-4aX">
+                                <rect key="frame" x="50" y="30" width="220" height="78.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BAF-4s-4aX" secondAttribute="height" multiplier="280:100" id="Ofz-lm-Wzn"/>
                                     <constraint firstAttribute="width" secondItem="BAF-4s-4aX" secondAttribute="height" multiplier="4:1" id="jdL-wj-cWu"/>
@@ -40,8 +40,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔮" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="j0i-u3-NMK">
-                                <rect key="frame" x="20" y="108" width="280" height="280"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🔮" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="j0i-u3-NMK">
+                                <rect key="frame" x="20" y="108.5" width="280" height="280"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="j0i-u3-NMK" secondAttribute="height" multiplier="1:1" id="96A-wS-Qds"/>
                                     <constraint firstAttribute="width" secondItem="j0i-u3-NMK" secondAttribute="height" multiplier="1:1" id="cyG-Ge-3Ci"/>
@@ -69,22 +69,18 @@
                                     <action selector="tellFortunes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHl-iG-Lhe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の運勢を占おう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
-                                <rect key="frame" x="20" y="388" width="280" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今日の運勢を占おう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
+                                <rect key="frame" x="20" y="388.5" width="280" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音楽：魔王魂" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4D-e9-7NW">
-                                <rect key="frame" x="228" y="539" width="72" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="5Qu-FJ-Xkf"/>
-                                    <constraint firstAttribute="width" constant="72" id="9ea-eq-bVT"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybf-Yv-9yf">
+                                <rect key="frame" x="278" y="526" width="22" height="22"/>
+                                <connections>
+                                    <segue destination="Xwp-Ty-dX6" kind="show" id="9YD-re-vCc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -99,6 +95,7 @@
                                 <variation key="heightClass=compact" constant="44"/>
                             </constraint>
                             <constraint firstAttribute="trailing" secondItem="l36-Zt-0VL" secondAttribute="trailing" constant="20" id="U7T-Zw-X9n"/>
+                            <constraint firstAttribute="trailing" secondItem="Ybf-Yv-9yf" secondAttribute="trailing" constant="20" id="Xhr-JN-O4q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BAF-4s-4aX" secondAttribute="trailing" constant="20" id="Y1H-Pi-2x8"/>
                             <constraint firstItem="j0i-u3-NMK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="YP7-L7-L00"/>
                             <constraint firstItem="zev-3R-7We" firstAttribute="centerX" secondItem="l36-Zt-0VL" secondAttribute="centerX" id="Zyq-Rv-ujd"/>
@@ -108,9 +105,8 @@
                                 <variation key="heightClass=compact" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="BAF-4s-4aX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="iWz-u1-dv4"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w4D-e9-7NW" secondAttribute="bottom" constant="8" id="pkY-Nt-eIP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ybf-Yv-9yf" secondAttribute="bottom" constant="20" id="oOD-S6-4c4"/>
                             <constraint firstItem="l36-Zt-0VL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ps0-Oe-qz2"/>
-                            <constraint firstAttribute="trailing" secondItem="w4D-e9-7NW" secondAttribute="trailing" constant="20" id="r08-xt-SmB"/>
                             <constraint firstItem="BAF-4s-4aX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rIX-UR-8Xh">
                                 <variation key="heightClass=compact" constant="24"/>
                             </constraint>
@@ -164,6 +160,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="X9y-Rr-Jvy"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="animalLabel" destination="j0i-u3-NMK" id="GBs-62-30b"/>
@@ -172,7 +169,82 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="269" y="336"/>
+            <point key="canvasLocation" x="1873" y="336"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="P2w-DK-H0Q">
+            <objects>
+                <viewController id="Xwp-Ty-dX6" customClass="SecondViewController" customModule="AnimalFortuneTelling" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jjc-oC-sPN"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sph-1J-PNp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="au9-LD-BRj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音楽：魔王魂" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFl-Et-JGZ">
+                                <rect key="frame" x="228" y="527" width="72" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="1ao-dW-HDE"/>
+                                    <constraint firstAttribute="height" constant="21" id="1kS-6d-qF3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="developer" translatesAutoresizingMaskIntoConstraints="NO" id="i70-lI-1Ce">
+                                <rect key="frame" x="36" y="160" width="248" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="i70-lI-1Ce" secondAttribute="height" multiplier="1:1" id="K7G-qh-hWu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このアプリは私が作りました！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5P-vJ-Ttj">
+                                <rect key="frame" x="41" y="131" width="238" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="y5P-vJ-Ttj" firstAttribute="centerX" secondItem="au9-LD-BRj" secondAttribute="centerX" id="1Xf-vv-Zmj"/>
+                            <constraint firstItem="i70-lI-1Ce" firstAttribute="centerX" secondItem="au9-LD-BRj" secondAttribute="centerX" id="4rS-Rr-w0o"/>
+                            <constraint firstAttribute="trailing" secondItem="kFl-Et-JGZ" secondAttribute="trailing" constant="20" id="PFo-uv-rmj"/>
+                            <constraint firstItem="i70-lI-1Ce" firstAttribute="top" secondItem="y5P-vJ-Ttj" secondAttribute="bottom" constant="8" id="QgY-gc-s4d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i70-lI-1Ce" secondAttribute="trailing" constant="20" id="ZP7-Ec-6Q5"/>
+                            <constraint firstItem="i70-lI-1Ce" firstAttribute="leading" secondItem="au9-LD-BRj" secondAttribute="leadingMargin" constant="20" id="fDW-Ad-XGU"/>
+                            <constraint firstItem="i70-lI-1Ce" firstAttribute="centerY" secondItem="au9-LD-BRj" secondAttribute="centerY" id="op5-Yi-NT2"/>
+                            <constraint firstItem="Sph-1J-PNp" firstAttribute="top" secondItem="kFl-Et-JGZ" secondAttribute="bottom" constant="20" id="wIT-Ee-lXD"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yNU-95-g9Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2275" y="336"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w4r-Ip-b7n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vS4-gD-ij5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B6R-bZ-OzN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="t7b-wj-77U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N6w-HA-Ctb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1467" y="336"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="developer" width="240" height="240"/>
+    </resources>
 </document>

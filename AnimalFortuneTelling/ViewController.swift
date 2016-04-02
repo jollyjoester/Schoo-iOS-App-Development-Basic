@@ -20,6 +20,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("ViewController.viewDidLoad()")
+
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+
         let url = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("bgm.mp3")
 
         do {
@@ -35,6 +39,34 @@ class ViewController: UIViewController {
         } catch {
             print("bgmエラーです")
         }
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        print("ViewController.viewWillAppear()")
+
+        if !bgmPlayer.playing {
+            bgmPlayer.play()
+        }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        print("ViewController.viewDidAppear()")
+    }
+
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("ViewController.viewWillDisAppear()")
+
+        if bgmPlayer.playing {
+            bgmPlayer.pause()
+        }
+    }
+
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("ViewController.viewDidDisAppear()")
     }
 
     override func didReceiveMemoryWarning() {

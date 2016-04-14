@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="どうぶつ占い" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-4s-4aX">
-                                <rect key="frame" x="50" y="30" width="220" height="78.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どうぶつ占い" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-4s-4aX">
+                                <rect key="frame" x="50" y="74" width="220" height="78.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BAF-4s-4aX" secondAttribute="height" multiplier="280:100" id="Ofz-lm-Wzn"/>
                                     <constraint firstAttribute="width" secondItem="BAF-4s-4aX" secondAttribute="height" multiplier="4:1" id="jdL-wj-cWu"/>
@@ -40,8 +40,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🔮" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="j0i-u3-NMK">
-                                <rect key="frame" x="20" y="108.5" width="280" height="280"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔮" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="j0i-u3-NMK">
+                                <rect key="frame" x="20" y="152.5" width="280" height="280"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="j0i-u3-NMK" secondAttribute="height" multiplier="1:1" id="96A-wS-Qds"/>
                                     <constraint firstAttribute="width" secondItem="j0i-u3-NMK" secondAttribute="height" multiplier="1:1" id="cyG-Ge-3Ci"/>
@@ -69,8 +69,8 @@
                                     <action selector="tellFortunes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHl-iG-Lhe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今日の運勢を占おう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
-                                <rect key="frame" x="20" y="388.5" width="280" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の運勢を占おう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
+                                <rect key="frame" x="20" y="432.5" width="280" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>

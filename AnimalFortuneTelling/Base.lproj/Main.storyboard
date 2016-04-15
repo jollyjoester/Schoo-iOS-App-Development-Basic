@@ -83,6 +83,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="zev-3R-7We" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Gn-Fo-zXg"/>
                             <constraint firstItem="l36-Zt-0VL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3hX-hp-C42"/>
@@ -159,6 +160,12 @@
                                 <include reference="fH9-1s-3B6"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="RXg-Xd-PO1" appends="YES" id="63Q-Ft-Un1"/>
+                            <outletCollection property="gestureRecognizers" destination="MNO-Ae-qD0" appends="YES" id="BZS-ff-sY7"/>
+                            <outletCollection property="gestureRecognizers" destination="eK1-dy-AEX" appends="YES" id="bDQ-9N-inM"/>
+                            <outletCollection property="gestureRecognizers" destination="7IQ-x0-cYX" appends="YES" id="P9P-zQ-DAD"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="X9y-Rr-Jvy"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -168,6 +175,26 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="RXg-Xd-PO1">
+                    <connections>
+                        <action selector="tellFortunes:" destination="BYZ-38-t0r" id="LrE-p6-xMn"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="MNO-Ae-qD0">
+                    <connections>
+                        <action selector="tellFortunes:" destination="BYZ-38-t0r" id="ayp-IM-UsU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="eK1-dy-AEX">
+                    <connections>
+                        <action selector="tellFortunes:" destination="BYZ-38-t0r" id="lJ1-jQ-5KU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="7IQ-x0-cYX">
+                    <connections>
+                        <action selector="tellFortunes:" destination="BYZ-38-t0r" id="Zu8-CV-VoU"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1873" y="336"/>
         </scene>

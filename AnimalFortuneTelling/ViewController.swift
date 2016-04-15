@@ -49,7 +49,7 @@ class ViewController: UIViewController {
             bgmPlayer.play()
         }
     }
-    
+
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         print("ViewController.viewDidAppear()")
@@ -76,9 +76,143 @@ class ViewController: UIViewController {
 
     @IBAction func tellFortunes(sender: AnyObject) {
 
+        if let swipe = sender as? UISwipeGestureRecognizer {
+            switch swipe.direction {
+            case UISwipeGestureRecognizerDirection.Right:
+                swipeRight()
+            case UISwipeGestureRecognizerDirection.Left:
+                swipeLeft()
+            case UISwipeGestureRecognizerDirection.Up:
+                swipeUp()
+            case UISwipeGestureRecognizerDirection.Down:
+                swipeDown()
+            default:
+                break
+            }
+        } else {
+            tappedButton()
+        }
+    }
+
+    func tappedButton() {
         UIView.animateWithDuration(1.0, animations: {
 
             self.animalLabel.transform = CGAffineTransformMakeScale(0.2, 0.2)
+            self.animalLabel.alpha = 0.0
+            self.resultLabel.hidden = true
+
+            }, completion: { (Bool) -> Void in
+
+                self.animalLabel.transform = CGAffineTransformIdentity
+                self.animalLabel.alpha = 1.0
+                self.resultLabel.hidden = false
+                self.changeLabel()
+
+                UIView.animateWithDuration(0.1, animations: {
+                    UIView.setAnimationRepeatCount(5)
+                    self.animalLabel.transform = CGAffineTransformMakeTranslation(10, 0)
+                    }, completion: { (Bool) -> Void in
+                        self.animalLabel.transform = CGAffineTransformIdentity
+                })
+        })
+    }
+
+    func swipeRight() {
+        UIView.animateWithDuration(1.0, animations: {
+
+            self.animalLabel.transform = CGAffineTransformMakeTranslation(200, 0)
+            self.animalLabel.alpha = 0.0
+            self.resultLabel.hidden = true
+
+            }, completion: { (Bool) -> Void in
+
+                self.animalLabel.transform = CGAffineTransformIdentity
+                self.animalLabel.alpha = 1.0
+                self.resultLabel.hidden = false
+                self.changeLabel()
+
+                UIView.animateWithDuration(0.1, animations: {
+                    UIView.setAnimationRepeatCount(5)
+                    self.animalLabel.transform = CGAffineTransformMakeTranslation(10, 0)
+                    }, completion: { (Bool) -> Void in
+                        self.animalLabel.transform = CGAffineTransformIdentity
+                })
+        })
+    }
+
+    func swipeLeft() {
+        UIView.animateWithDuration(1.0, animations: {
+
+            self.animalLabel.transform = CGAffineTransformMakeTranslation(-200, 0)
+            self.animalLabel.alpha = 0.0
+            self.resultLabel.hidden = true
+
+            }, completion: { (Bool) -> Void in
+
+                self.animalLabel.transform = CGAffineTransformIdentity
+                self.animalLabel.alpha = 1.0
+                self.resultLabel.hidden = false
+                self.changeLabel()
+
+                UIView.animateWithDuration(0.1, animations: {
+                    UIView.setAnimationRepeatCount(5)
+                    self.animalLabel.transform = CGAffineTransformMakeTranslation(10, 0)
+                    }, completion: { (Bool) -> Void in
+                        self.animalLabel.transform = CGAffineTransformIdentity
+                })
+        })
+    }
+
+    func swipeUp() {
+        UIView.animateWithDuration(1.0, animations: {
+
+            self.animalLabel.transform = CGAffineTransformMakeTranslation(0, -200)
+            self.animalLabel.alpha = 0.0
+            self.resultLabel.hidden = true
+
+            }, completion: { (Bool) -> Void in
+
+                self.animalLabel.transform = CGAffineTransformIdentity
+                self.animalLabel.alpha = 1.0
+                self.resultLabel.hidden = false
+                self.changeLabel()
+
+                UIView.animateWithDuration(0.1, animations: {
+                    UIView.setAnimationRepeatCount(5)
+                    self.animalLabel.transform = CGAffineTransformMakeTranslation(10, 0)
+                    }, completion: { (Bool) -> Void in
+                        self.animalLabel.transform = CGAffineTransformIdentity
+                })
+        })
+    }
+
+    func swipeDown() {
+        UIView.animateWithDuration(1.0, animations: {
+
+            self.animalLabel.transform = CGAffineTransformMakeTranslation(0, 200)
+            self.animalLabel.alpha = 0.0
+            self.resultLabel.hidden = true
+
+            }, completion: { (Bool) -> Void in
+
+                self.animalLabel.transform = CGAffineTransformIdentity
+                self.animalLabel.alpha = 1.0
+                self.resultLabel.hidden = false
+                self.changeLabel()
+
+                UIView.animateWithDuration(0.1, animations: {
+                    UIView.setAnimationRepeatCount(5)
+                    self.animalLabel.transform = CGAffineTransformMakeTranslation(10, 0)
+                    }, completion: { (Bool) -> Void in
+                        self.animalLabel.transform = CGAffineTransformIdentity
+                })
+        })
+    }
+
+    func shake() {
+        UIView.animateWithDuration(1.0, animations: {
+
+            self.animalLabel.transform = CGAffineTransformMakeScale(3.0, 3.0)
             self.animalLabel.alpha = 0.0
             self.resultLabel.hidden = true
 
@@ -137,15 +271,35 @@ class ViewController: UIViewController {
         } catch {
             print("エラーです")
         }
+        
+        //        if bgmPlayer.playing {
+        //            bgmPlayer.pause()
+        //        } else {
+        //            bgmPlayer.play()
+        //        }
+        
+        //        bgmPlayer.stop()
+        
+    }
 
-//        if bgmPlayer.playing {
-//            bgmPlayer.pause()
-//        } else {
-//            bgmPlayer.play()
-//        }
+    override func canBecomeFirstResponder() -> Bool {
+        return true
+    }
 
-//        bgmPlayer.stop()
+    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        print("motionBegan")
 
+        if event?.type == UIEventType.Motion && event?.subtype == UIEventSubtype.MotionShake {
+            shake()
+        }
+    }
+
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        print("motionEnded")
+    }
+
+    override func motionCancelled(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        print("motionCanceled")
     }
 }
 

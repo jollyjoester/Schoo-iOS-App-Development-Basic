@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "どうぶつ占い"; ObjectID = "BAF-4s-4aX"; */
+"BAF-4s-4aX.text" = "どうぶつ占い";
+
+/* Class = "UILabel"; text = "🔮"; ObjectID = "j0i-u3-NMK"; */
+"j0i-u3-NMK.text" = "🔮";
+
+/* Class = "UILabel"; text = "音楽：魔王魂"; ObjectID = "kFl-Et-JGZ"; */
+"kFl-Et-JGZ.text" = "音楽：魔王魂";
+
+/* Class = "UILabel"; text = "今日の運勢を占おう！"; ObjectID = "l36-Zt-0VL"; */
+"l36-Zt-0VL.text" = "今日の運勢を占おう！";
+
+/* Class = "UILabel"; text = "このアプリは私が作りました！"; ObjectID = "y5P-vJ-Ttj"; */
+"y5P-vJ-Ttj.text" = "このアプリは私が作りました！";
+
+/* Class = "UIButton"; normalTitle = "占う"; ObjectID = "zev-3R-7We"; */
+"zev-3R-7We.normalTitle" = "占う";

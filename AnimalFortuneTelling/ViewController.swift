@@ -239,27 +239,27 @@ class ViewController: UIViewController {
         switch random {
         case 0..<10:
             animalLabel.text = "🐶"
-            resultLabel.text = "大吉だワン！"
+            resultLabel.text = NSLocalizedString("Daikichi", comment: "")
             soundName = "dog.mp3"
         case 10..<30:
             animalLabel.text = "🐱"
-            resultLabel.text = "中吉だニャー！"
+            resultLabel.text = NSLocalizedString("Chukichi", comment: "")
             soundName = "cat.mp3"
         case 30..<50:
             animalLabel.text = "🐔"
-            resultLabel.text = "吉だコケコッコー！"
+            resultLabel.text = NSLocalizedString("Kichi", comment: "")
             soundName = "chicken.mp3"
         case 50..<70:
             animalLabel.text = "🐑"
-            resultLabel.text = "末吉だメェェ！"
+            resultLabel.text = NSLocalizedString("Suekichi", comment: "")
             soundName = "sheep.mp3"
         case 70..<90:
             animalLabel.text = "🐘"
-            resultLabel.text = "凶だゾウ！"
+            resultLabel.text = NSLocalizedString("Kyo", comment: "")
             soundName = "elephant.mp3"
         default:
             animalLabel.text = "🐯"
-            resultLabel.text = "大凶だガオー！"
+            resultLabel.text = NSLocalizedString("Daikyo", comment: "")
             soundName = "tiger.mp3"
         }
 

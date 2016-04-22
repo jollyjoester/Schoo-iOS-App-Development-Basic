@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どうぶつ占い" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-4s-4aX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-4s-4aX">
                                 <rect key="frame" x="50" y="74" width="220" height="78.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BAF-4s-4aX" secondAttribute="height" multiplier="280:100" id="Ofz-lm-Wzn"/>
@@ -62,15 +62,15 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zev-3R-7We">
-                                <rect key="frame" x="124" y="473" width="72" height="55"/>
+                                <rect key="frame" x="133" y="473" width="54" height="55"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="占う"/>
+                                <state key="normal" title="Tell"/>
                                 <connections>
                                     <action selector="tellFortunes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHl-iG-Lhe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の運勢を占おう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
-                                <rect key="frame" x="20" y="432.5" width="280" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fortunetelling!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l36-Zt-0VL">
+                                <rect key="frame" x="0.0" y="432.5" width="320" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -95,7 +95,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zev-3R-7We" secondAttribute="bottom" constant="20" id="MYz-yu-Uf0">
                                 <variation key="heightClass=compact" constant="44"/>
                             </constraint>
-                            <constraint firstAttribute="trailing" secondItem="l36-Zt-0VL" secondAttribute="trailing" constant="20" id="U7T-Zw-X9n"/>
+                            <constraint firstAttribute="trailing" secondItem="l36-Zt-0VL" secondAttribute="trailing" id="U7T-Zw-X9n"/>
                             <constraint firstAttribute="trailing" secondItem="Ybf-Yv-9yf" secondAttribute="trailing" constant="20" id="Xhr-JN-O4q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BAF-4s-4aX" secondAttribute="trailing" constant="20" id="Y1H-Pi-2x8"/>
                             <constraint firstItem="j0i-u3-NMK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="YP7-L7-L00"/>
@@ -107,7 +107,7 @@
                             </constraint>
                             <constraint firstItem="BAF-4s-4aX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="iWz-u1-dv4"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ybf-Yv-9yf" secondAttribute="bottom" constant="20" id="oOD-S6-4c4"/>
-                            <constraint firstItem="l36-Zt-0VL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ps0-Oe-qz2"/>
+                            <constraint firstItem="l36-Zt-0VL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ps0-Oe-qz2"/>
                             <constraint firstItem="BAF-4s-4aX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rIX-UR-8Xh">
                                 <variation key="heightClass=compact" constant="24"/>
                             </constraint>

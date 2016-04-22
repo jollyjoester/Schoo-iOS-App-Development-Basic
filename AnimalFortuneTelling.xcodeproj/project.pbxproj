@@ -14,6 +14,8 @@
 		6287B9031CA4919B00BB86A0 /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B8FF1CA4919B00BB86A0 /* elephant.mp3 */; };
 		6287B9051CA4934000BB86A0 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B9041CA4934000BB86A0 /* chicken.mp3 */; };
 		6287B9071CA498F300BB86A0 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B9061CA498F300BB86A0 /* bgm.mp3 */; };
+		62B11A501CCA9F7100ECB51D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62B11A521CCA9F7100ECB51D /* Localizable.strings */; };
+		62B11A571CCAA89700ECB51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62B11A591CCAA89700ECB51D /* InfoPlist.strings */; };
 		62B6F0B61C89291A006A4A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0B51C89291A006A4A73 /* AppDelegate.swift */; };
 		62B6F0B81C89291A006A4A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0B71C89291A006A4A73 /* ViewController.swift */; };
 		62B6F0BB1C89291A006A4A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B6F0B91C89291A006A4A73 /* Main.storyboard */; };
@@ -49,6 +51,14 @@
 		6287B8FF1CA4919B00BB86A0 /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
 		6287B9041CA4934000BB86A0 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
 		6287B9061CA498F300BB86A0 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		62B11A3C1CCA812000ECB51D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		62B11A3D1CCA812000ECB51D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		62B11A511CCA9F7100ECB51D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		62B11A531CCA9F7400ECB51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		62B11A541CCA9F7600ECB51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		62B11A581CCAA89700ECB51D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62B11A5A1CCAA89800ECB51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62B11A5B1CCAA89A00ECB51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62B6F0B21C89291A006A4A73 /* AnimalFortuneTelling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalFortuneTelling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B6F0B51C89291A006A4A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62B6F0B71C89291A006A4A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +145,8 @@
 				62B6F0BC1C89291A006A4A73 /* Assets.xcassets */,
 				62B6F0BE1C89291A006A4A73 /* LaunchScreen.storyboard */,
 				62B6F0C11C89291A006A4A73 /* Info.plist */,
+				62B11A521CCA9F7100ECB51D /* Localizable.strings */,
+				62B11A591CCAA89700ECB51D /* InfoPlist.strings */,
 			);
 			path = AnimalFortuneTelling;
 			sourceTree = "<group>";
@@ -225,6 +237,7 @@
 				TargetAttributes = {
 					62B6F0B11C89291A006A4A73 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H5U5323DL;
 					};
 					62B6F0C51C89291A006A4A73 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -262,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6287B9001CA4919B00BB86A0 /* sheep.mp3 in Resources */,
+				62B11A571CCAA89700ECB51D /* InfoPlist.strings in Resources */,
 				62B6F0C01C89291A006A4A73 /* LaunchScreen.storyboard in Resources */,
+				62B11A501CCA9F7100ECB51D /* Localizable.strings in Resources */,
 				6287B9011CA4919B00BB86A0 /* tiger.mp3 in Resources */,
 				6287B9031CA4919B00BB86A0 /* elephant.mp3 in Resources */,
 				6287B9051CA4934000BB86A0 /* chicken.mp3 in Resources */,
@@ -333,10 +348,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		62B11A521CCA9F7100ECB51D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B11A511CCA9F7100ECB51D /* ja */,
+				62B11A531CCA9F7400ECB51D /* Base */,
+				62B11A541CCA9F7600ECB51D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		62B11A591CCAA89700ECB51D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B11A581CCAA89700ECB51D /* ja */,
+				62B11A5A1CCAA89800ECB51D /* Base */,
+				62B11A5B1CCAA89A00ECB51D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		62B6F0B91C89291A006A4A73 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				62B6F0BA1C89291A006A4A73 /* Base */,
+				62B11A3C1CCA812000ECB51D /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -345,6 +381,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				62B6F0BF1C89291A006A4A73 /* Base */,
+				62B11A3D1CCA812000ECB51D /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -437,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimalFortuneTelling/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -449,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimalFortuneTelling/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

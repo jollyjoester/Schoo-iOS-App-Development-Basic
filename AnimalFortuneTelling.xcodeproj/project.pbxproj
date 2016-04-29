@@ -14,6 +14,14 @@
 		6287B9031CA4919B00BB86A0 /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B8FF1CA4919B00BB86A0 /* elephant.mp3 */; };
 		6287B9051CA4934000BB86A0 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B9041CA4934000BB86A0 /* chicken.mp3 */; };
 		6287B9071CA498F300BB86A0 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6287B9061CA498F300BB86A0 /* bgm.mp3 */; };
+		62AAEFA11CD1301700CDE8DC /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAEF9E1CD1301700CDE8DC /* Repro.framework */; };
+		62AAEFA21CD1301700CDE8DC /* ReproSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62AAEFA01CD1301700CDE8DC /* ReproSDKResources.bundle */; };
+		62AAEFA41CD132BB00CDE8DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAEFA31CD132BB00CDE8DC /* AVFoundation.framework */; };
+		62AAEFA61CD132C600CDE8DC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAEFA51CD132C600CDE8DC /* CoreMedia.framework */; };
+		62AAEFA81CD132DA00CDE8DC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAEFA71CD132DA00CDE8DC /* CoreTelephony.framework */; };
+		62AAEFAA1CD132E200CDE8DC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAEFA91CD132E200CDE8DC /* MobileCoreServices.framework */; };
+		62AAEFAC1CD132F800CDE8DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAEFAB1CD132F800CDE8DC /* Security.framework */; };
+		62AAEFAE1CD1330000CDE8DC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAEFAD1CD1330000CDE8DC /* SystemConfiguration.framework */; };
 		62B11A501CCA9F7100ECB51D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62B11A521CCA9F7100ECB51D /* Localizable.strings */; };
 		62B11A571CCAA89700ECB51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62B11A591CCAA89700ECB51D /* InfoPlist.strings */; };
 		62B6F0B61C89291A006A4A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6F0B51C89291A006A4A73 /* AppDelegate.swift */; };
@@ -51,6 +59,14 @@
 		6287B8FF1CA4919B00BB86A0 /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
 		6287B9041CA4934000BB86A0 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
 		6287B9061CA498F300BB86A0 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		62AAEF9E1CD1301700CDE8DC /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Repro.framework; sourceTree = "<group>"; };
+		62AAEFA01CD1301700CDE8DC /* ReproSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ReproSDKResources.bundle; sourceTree = "<group>"; };
+		62AAEFA31CD132BB00CDE8DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		62AAEFA51CD132C600CDE8DC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		62AAEFA71CD132DA00CDE8DC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		62AAEFA91CD132E200CDE8DC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		62AAEFAB1CD132F800CDE8DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		62AAEFAD1CD1330000CDE8DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		62B11A3C1CCA812000ECB51D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		62B11A3D1CCA812000ECB51D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		62B11A511CCA9F7100ECB51D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -80,6 +96,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AAEFAE1CD1330000CDE8DC /* SystemConfiguration.framework in Frameworks */,
+				62AAEFAC1CD132F800CDE8DC /* Security.framework in Frameworks */,
+				62AAEFAA1CD132E200CDE8DC /* MobileCoreServices.framework in Frameworks */,
+				62AAEFA81CD132DA00CDE8DC /* CoreTelephony.framework in Frameworks */,
+				62AAEFA61CD132C600CDE8DC /* CoreMedia.framework in Frameworks */,
+				62AAEFA41CD132BB00CDE8DC /* AVFoundation.framework in Frameworks */,
+				62AAEFA11CD1301700CDE8DC /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,9 +137,33 @@
 			name = sound;
 			sourceTree = "<group>";
 		};
+		62AAEF9D1CD1301700CDE8DC /* Repro.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				62AAEF9E1CD1301700CDE8DC /* Repro.framework */,
+				62AAEF9F1CD1301700CDE8DC /* Resources */,
+			);
+			path = Repro.embeddedframework;
+			sourceTree = "<group>";
+		};
+		62AAEF9F1CD1301700CDE8DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62AAEFA01CD1301700CDE8DC /* ReproSDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		62B6F0A91C89291A006A4A73 = {
 			isa = PBXGroup;
 			children = (
+				62AAEFAD1CD1330000CDE8DC /* SystemConfiguration.framework */,
+				62AAEFAB1CD132F800CDE8DC /* Security.framework */,
+				62AAEFA91CD132E200CDE8DC /* MobileCoreServices.framework */,
+				62AAEFA71CD132DA00CDE8DC /* CoreTelephony.framework */,
+				62AAEFA51CD132C600CDE8DC /* CoreMedia.framework */,
+				62AAEFA31CD132BB00CDE8DC /* AVFoundation.framework */,
+				62AAEF9D1CD1301700CDE8DC /* Repro.embeddedframework */,
 				62B6F0B41C89291A006A4A73 /* AnimalFortuneTelling */,
 				62B6F0C91C89291A006A4A73 /* AnimalFortuneTellingTests */,
 				62B6F0D41C89291A006A4A73 /* AnimalFortuneTellingUITests */,
@@ -282,6 +329,7 @@
 				6287B9031CA4919B00BB86A0 /* elephant.mp3 in Resources */,
 				6287B9051CA4934000BB86A0 /* chicken.mp3 in Resources */,
 				62B6F0BD1C89291A006A4A73 /* Assets.xcassets in Resources */,
+				62AAEFA21CD1301700CDE8DC /* ReproSDKResources.bundle in Resources */,
 				6287B9021CA4919B00BB86A0 /* cat.mp3 in Resources */,
 				62B6F0BB1C89291A006A4A73 /* Main.storyboard in Resources */,
 				6287B8FB1CA48E0D00BB86A0 /* dog.mp3 in Resources */,
@@ -475,6 +523,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repro.embeddedframework",
+				);
 				INFOPLIST_FILE = AnimalFortuneTelling/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -488,6 +540,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repro.embeddedframework",
+				);
 				INFOPLIST_FILE = AnimalFortuneTelling/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

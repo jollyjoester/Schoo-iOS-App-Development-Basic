@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import Repro
 
 class ViewController: UIViewController {
 
@@ -95,6 +96,9 @@ class ViewController: UIViewController {
     }
 
     func tappedButton() {
+
+        Repro.track("tappedButton", properties: nil)
+
         UIView.animateWithDuration(1.0, animations: {
 
             self.animalLabel.transform = CGAffineTransformMakeScale(0.2, 0.2)
@@ -118,6 +122,9 @@ class ViewController: UIViewController {
     }
 
     func swipeRight() {
+
+        Repro.track("swipeRight", properties: nil)
+
         UIView.animateWithDuration(1.0, animations: {
 
             self.animalLabel.transform = CGAffineTransformMakeTranslation(200, 0)
@@ -141,6 +148,9 @@ class ViewController: UIViewController {
     }
 
     func swipeLeft() {
+
+        Repro.track("swipeLeft", properties: nil)
+
         UIView.animateWithDuration(1.0, animations: {
 
             self.animalLabel.transform = CGAffineTransformMakeTranslation(-200, 0)
@@ -164,6 +174,9 @@ class ViewController: UIViewController {
     }
 
     func swipeUp() {
+
+        Repro.track("swipeUp", properties: nil)
+
         UIView.animateWithDuration(1.0, animations: {
 
             self.animalLabel.transform = CGAffineTransformMakeTranslation(0, -200)
@@ -187,6 +200,9 @@ class ViewController: UIViewController {
     }
 
     func swipeDown() {
+
+        Repro.track("swipeDown", properties: nil)
+
         UIView.animateWithDuration(1.0, animations: {
 
             self.animalLabel.transform = CGAffineTransformMakeTranslation(0, 200)
@@ -210,6 +226,9 @@ class ViewController: UIViewController {
     }
 
     func shake() {
+
+        Repro.track("shake", properties: nil)
+
         UIView.animateWithDuration(1.0, animations: {
 
             self.animalLabel.transform = CGAffineTransformMakeScale(3.0, 3.0)
